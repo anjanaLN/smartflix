@@ -1,0 +1,10 @@
+%h1 Smartflix
+
+-@shows.each do |show|
+  %h3
+    = show['title']
+    = show['release_year']
+  %p
+    = show['type']
+  %p
+    = show['description']
